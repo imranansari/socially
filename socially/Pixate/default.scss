@@ -1,0 +1,53 @@
+@import "base.scss";
+
+navigation-bar {
+    color:$LincolnBlue;
+    background-color:$BurgundyGradientColor;
+}
+
+tab-bar {
+  color: $BurgundyGradientColor;
+  selected-color: white;
+  background-color: $GoldTabGradientBottom;
+}
+
+tab-bar-item {
+    color: $tab-bar-text-color;
+    font-family: $tab-bar-font;
+    font-weight: semibold;
+    font-size: 12;
+}
+
+.LFGiOSButton {
+  color:white;
+    background-color: $BlueButtonBackground;
+    border-width:     1px;
+    border-color:     black;
+    border-radius:    5px;
+    border-style:     solid;
+}
+
+/* Detail View */
+.MainLabel {
+  color: black;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* Detail View */
+.DetailLabel {
+  color: $BurgundyGradientColor;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.switches {
+  color: $BlueButtonBackground;
+  off-color: $BlueButtonBackground;
+}
+
+/*
+.switches thumb {
+  color: white;
+}
+*/

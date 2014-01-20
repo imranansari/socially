@@ -1,0 +1,21 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <Pixate/Pixate.h>
+    #define LICENSE_KEY @"AIO7F-VB3LI-QOOCH-C7KV5-BKMF6-B51EE-OLGNP-V48Q1-MJBUR-N8FQO-KFQRH-QQBLE-N0AMB-PQPFC-AKIFB-O6"
+    #define USER_NAME @"kshihab83@gmail.com"
+#endif
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
